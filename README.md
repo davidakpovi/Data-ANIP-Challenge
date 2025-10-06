@@ -13,7 +13,7 @@ L’objectif global :
 ## Structure du projet
 Le projet est organisé en **trois tâches principales**, chacune livrée dans un dossier séparé.
 
-### 1. [Tâche 1 – Collecte et Préparation des Données](./Tache_1)
+### 1. [Tâche 1 – Collecte et Préparation des Données](./Tâche_1)
 **Objectif :** construire un dataset fiable, propre et harmonisé à partir de multiples sources ouvertes.  
 - Collecte via API (World Bank, etc.)
 - Nettoyage et harmonisation des formats, unités et clés (`iso3`, `year`)
