@@ -23,7 +23,7 @@ Explorer le dataset consolidé afin d’identifier des tendances, corrélations 
 - `dataset_final_enriched.csv` (dataset enrichi)
 - `agg_decade_mean.csv` / `agg_decade_last.csv`
 - `eda_anomalies_methodo.txt` (anomalies et choix méthodologiques)
-- `Notebook_Tache_2.ipynb`
+- `Tache_2_Akpovi_David_Notebook_0610.ipynb`
 
 ## Points clés
 - Mise en place d’indicateurs économiques et sociaux combinés.
