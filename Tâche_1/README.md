@@ -1,4 +1,4 @@
-# Tâche 1 – Collecte et Préparation des Données
+# Tache 1 – Collecte et Préparation des Données
 
 ## Objectif
 Collecter, nettoyer et harmoniser des données issues de sources ouvertes afin de constituer un dataset final unique et prêt à l’analyse.
