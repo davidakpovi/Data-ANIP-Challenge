@@ -1,0 +1,8 @@
+Anomalies détectées:
+
+Choix méthodologiques:
+- Croissance population: pct_change sur population_total, après tri par year.
+- PIB par habitant: gdp_current_usd / population_total.
+- Indice composite: min-max sur gdp_per_capita_usd, life_expectancy_years,
+  et inversion de maternal_mortality_ratio avant moyenne.
+- Agrégations: moyennes par décennie (flux) et dernière valeur par décennie (stocks).
