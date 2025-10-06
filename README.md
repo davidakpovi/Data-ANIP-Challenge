@@ -13,7 +13,7 @@ L’objectif global :
 ## Structure du projet
 Le projet est organisé en **trois tâches principales**, chacune livrée dans un dossier séparé.
 
-### 1. [Tâche 1 – Collecte et Préparation des Données](./Tâche_1)
+### 1. Tâche 1 - Collecte et Préparation des Données
 **Objectif :** construire un dataset fiable, propre et harmonisé à partir de multiples sources ouvertes.  
 - Collecte via API (World Bank, etc.)
 - Nettoyage et harmonisation des formats, unités et clés (`iso3`, `year`)
@@ -29,7 +29,7 @@ Le projet est organisé en **trois tâches principales**, chacune livrée dans u
 
 ---
 
-### 2. [Tâche 2 – Exploration et Analyse](./Tache_2)
+### 2. Tâche 2 - Exploration et Analyse
 **Objectif :** analyser les tendances, construire des indicateurs dérivés et préparer les données pour la visualisation.  
 - Analyse descriptive et temporelle (1960–2025)
 - Détection des anomalies et documentation méthodologique
@@ -48,7 +48,7 @@ Le projet est organisé en **trois tâches principales**, chacune livrée dans u
 
 ---
 
-### 3. [Tâche 3 – Visualisation et Insights](./Tache_3)
+### 3. Tâche 3 - Visualisation et Insights
 **Objectif :** créer un tableau de bord interactif et raconter une histoire claire à partir des données.  
 - Création de KPI (population, PIB, santé, croissance)
 - Visualisations temporelles (matplotlib)
