@@ -67,7 +67,7 @@ Le projet est organisé en **trois tâches principales**, chacune livrée dans u
 **Sources :**
 - Banque mondiale (World Development Indicators)
 - WHO, UNDP, et autres portails open data  
-- Données harmonisées pour le Bénin (`iso3 = BEN`, 1960–2025)
+- Données harmonisées pour le Bénin (`iso3 = BEN`, 1960–2024)
 
 **Indicateurs clés :**
 - Population totale  
@@ -89,3 +89,48 @@ Le projet est organisé en **trois tâches principales**, chacune livrée dans u
 
 
 ## Organisation des fichiers
+## Organisation des fichiers
+Data-ANIP-Challenge/
+│
+├── Tache_1/
+│ ├── Tache_1_Akpovi_David_Notebook_0610.ipynb
+│ ├── dataset_final.csv
+│ ├── dataset_final_core.csv
+│ ├── datasets_exports.zip
+│ └── Glossaire_des_variables.xlsx
+│
+├── Tache_2/
+│ ├── Tache_2_Akpovi_David_Notebook_0610.ipynb
+│ ├── dataset_final_enriched.csv
+│ ├── agg_decade_mean.csv
+│ ├── agg_decade_last.csv
+│ └── eda_anomalies_methodo.txt
+│
+├── Tache_3/
+│ ├── Tache_3_Akpovi_David_Notebook_0610.ipynb
+│ ├── evolution_indicateurs.html.html
+  ├── kpi_bar_interactif.html
+│ └── figs_tache3/
+│
+└── Rapport_Final-Data_ANIP_Challenge-David_Akpovi.pdf
+
+
+---
+
+## Résultats et perspectives
+- **Amélioration continue des indicateurs :** la croissance démographique s’accompagne d’un allongement de l’espérance de vie.
+- **Défis persistants :** mortalité maternelle encore élevée.
+- **Lien confirmé entre économie et santé :** corrélation positive entre PIB par habitant et bien-être sanitaire.
+- **Prochaines étapes :**
+  - Intégrer les données régionales (communes, départements)
+  - Automatiser la mise à jour via API
+  - Étendre le tableau de bord pour suivi en temps réel
+
+---
+
+## Auteur
+**David Akpovi**  
+Author & Data Analyst & AI Engineer
+[GitHub](https://github.com/davidakpovi) • [LinkedIn](https://linkedin.com/in/davidakpovi)
+
+---
