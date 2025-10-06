@@ -1,34 +1,36 @@
-# Challenge — Tâche 1 : Collecte & Préparation des Données (Bénin)
+# Tâche 3 – Visualisation et Insights
 
-Ce dépôt est **complet** et prêt à l'emploi. Il inclut : structure de dossiers, config des sources (Bénin),
-notebook, modules Python (collecte/nettoyage/harmonisation + QC), docs (glossaire + dictionnaire des données).
+## Objectif
+Transformer les données enrichies en tableaux de bord interactifs et produire des visualisations percutantes pour le storytelling décisionnel.
 
-## Structure
-```
-challenge_tache1_data_pipeline/
-├─ config/
-│  └─ sources.yml
-├─ data/
-│  ├─ raw/        # données brutes
-│  ├─ interim/    # étapes intermédiaires
-│  └─ processed/  # dataset final prêt à l'analyse
-├─ docs/
-│  ├─ data_dictionary.csv
-│  └─ glossary.md
-├─ notebooks/
-│  └─ 01_collecte_preparation.ipynb
-├─ src/
-│  ├─ __init__.py
-│  ├─ collect.py
-│  ├─ clean.py
-│  ├─ harmonize.py
-│  └─ qc.py
-├─ .logs/
-└─ requirements.txt
-```
+## Étapes principales
+1. Nettoyage final et préparation du dataset pour la visualisation.
+2. Création de KPI (indicateurs clés) :
+   - Population totale
+   - PIB (USD courants)
+   - PIB par habitant
+   - Espérance de vie
+   - Croissance du PIB réel
+   - Mortalité maternelle
+   - Indice de développement
+3. Visualisations statiques :
+   - Séries temporelles (matplotlib)
+   - Corrélations entre indicateurs
+4. Tableaux de bord interactifs (Plotly) :
+   - Comparaison des tendances
+   - Barres interactives pour les KPI
+   - Export HTML : `evolution_indicateurs.html`, `kpi_bar_interactif.html`
+5. Exports complémentaires :
+   - Graphiques PNG dans `figs_tache3/`
 
-## Utilisation rapide
-1. `pip install -r requirements.txt`
-2. Ouvrir `notebooks/01_collecte_preparation.ipynb`
-3. Exécuter les cellules dans l'ordre : bootstrap → collecte → nettoyage → harmonisation → consolidation → export → QC
-4. Livrable : `data/processed/dataset_final.csv` + docs (glossaire, dictionnaire)
+## Livrables
+- `evolution_indicateurs.html`
+- `kpi_bar_interactif.html`
+- `figs_tache3/`
+- `Tache_3_Akpovi_David_Notebook_0610.ipynb`
+
+## Points clés
+- Visualisations dynamiques et interactives sans Power BI.
+- Narration claire : de la croissance économique aux enjeux de santé publique.
+- Export web-compatible pour présentation ou intégration.
+
